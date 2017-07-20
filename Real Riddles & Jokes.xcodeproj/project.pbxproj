@@ -12,6 +12,8 @@
 		1B58A2F41F20EB2E0095FF86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B58A2F21F20EB2E0095FF86 /* Main.storyboard */; };
 		1B58A2F61F20EB2E0095FF86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B58A2F51F20EB2E0095FF86 /* Assets.xcassets */; };
 		1B58A2F91F20EB2E0095FF86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B58A2F71F20EB2E0095FF86 /* LaunchScreen.storyboard */; };
+		1B58A3011F20EB620095FF86 /* Jokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B58A3001F20EB620095FF86 /* Jokes.swift */; };
+		1B58A3031F20EB830095FF86 /* Riddles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B58A3021F20EB830095FF86 /* Riddles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1B58A2F51F20EB2E0095FF86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B58A2F81F20EB2E0095FF86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B58A2FA1F20EB2E0095FF86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B58A3001F20EB620095FF86 /* Jokes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jokes.swift; sourceTree = "<group>"; };
+		1B58A3021F20EB830095FF86 /* Riddles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Riddles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				1B58A2EE1F20EB2E0095FF86 /* AppDelegate.swift */,
+				1B58A3001F20EB620095FF86 /* Jokes.swift */,
+				1B58A3021F20EB830095FF86 /* Riddles.swift */,
 				1B58A2F01F20EB2E0095FF86 /* ViewController.swift */,
 				1B58A2F21F20EB2E0095FF86 /* Main.storyboard */,
 				1B58A2F51F20EB2E0095FF86 /* Assets.xcassets */,
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					1B58A2EA1F20EB2E0095FF86 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5T3X52C9WM;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B58A2F11F20EB2E0095FF86 /* ViewController.swift in Sources */,
+				1B58A3011F20EB620095FF86 /* Jokes.swift in Sources */,
 				1B58A2EF1F20EB2E0095FF86 /* AppDelegate.swift in Sources */,
+				1B58A3031F20EB830095FF86 /* Riddles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5T3X52C9WM;
 				INFOPLIST_FILE = "Real Riddles & Jokes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.upperlinecode.Real-Riddles---Jokes";
@@ -274,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5T3X52C9WM;
 				INFOPLIST_FILE = "Real Riddles & Jokes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.upperlinecode.Real-Riddles---Jokes";
